@@ -4,6 +4,10 @@ public class Calculatrice {
         return operande1 + operande2;
     }
 
+    public float minus(float operande1, float operande2){
+        return operande1 - operande2;
+    }
+
     public float div(float numerateur, float denominateur) {
         if(denominateur == 0){
             throw new ArithmeticException("Div par O");
