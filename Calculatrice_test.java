@@ -19,4 +19,8 @@ public class Calculatrice_test{
     public void Test_div(){
         assertEquals(4,calc.div(100,25));//il va etre true
     }
+    @Test
+    public void Test_multi(){
+        assertEquals(121,calc.mult(11,11));//il va etre true
+    }
 }
