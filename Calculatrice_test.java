@@ -26,6 +26,10 @@ public class Calculatrice_test{
 
     @Test
     public void Test_minus(){
-        assertEquals(-3,calc.minus(5,8));//il va etre true
+        assertEquals(-3,calc.minus(5,8));//il va etre true avec un resultat negative
+    }
+    @Test
+    public void Test_minus2(){
+        assertEquals(10,calc.minus(26,16));//il va etre true avec un resultat positive
     }
 }
