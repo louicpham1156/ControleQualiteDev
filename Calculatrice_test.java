@@ -23,4 +23,9 @@ public class Calculatrice_test{
     public void Test_multi(){
         assertEquals(121,calc.mult(11,11));//il va etre true
     }
+
+    @Test
+    public void Test_minus(){
+        assertEquals(-3,calc.minus(5,8));//il va etre true
+    }
 }
