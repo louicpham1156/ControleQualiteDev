@@ -1,0 +1,16 @@
+Question III:
+1. Comment interpreter ce résultat?
+-Element : Ce sont des methodes à annalyser(mult,div,add,Calculatrice)
+-Miss instruction : Ce sont les nombres d'instructions qui n'est pas execute par le tests.
+- Cov : pourcentage d'intrucstion de code qui couvert par le test
+- missed branches : Conditions non testés
+- etc
+Mais les détailles principalement ce sont listées.
+Pour ce résultat,
+- la methode mult a 0% de couverture, c'est à dire qu'il y a aucune d'intrucstion qui a exécuté par les tests.
+- la methode div a 100% de couverture, c'est à dire que tout les instruction a été valider par les tests
+- et meme pour la methode add et calculatrice ont 100% de couverture
+Et pour la résultat globale, il y a 83% d'instructions qui a été valider donc il y manque 4/24 instruction qui non pas passer c'est celui de mult
+
+2. Que faut-il faire pour améliorer ce résultat ?
+- la methode multi a été pas tester, donc il faut juste ajouter un test à cette méthode.
